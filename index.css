@@ -93,10 +93,6 @@ li a {
     text-decoration: none;
 }
 
-/**
-** CSS for sub-top
-**/
-
 .sub-header {
     display: flex;
     width: 80%;
@@ -155,9 +151,6 @@ h1 {
     cursor: pointer;
 }
 
-/**
-** this is the first-level of main block
-**/
 
 main {
 
@@ -209,10 +202,6 @@ figure img {
 }
 
 
-/**
-** Below are codes of level 2 of the main block
-**/
-
 .second-level {
    
     margin-top: 0%;
@@ -242,14 +231,10 @@ figure img {
     margin-left: 65%;
 }
 
-/**
-* Code css for the last level
-**/
 
 .third-level {
     height: 350px;
 }
-
 
 
 #register {
@@ -263,7 +248,6 @@ figure img {
     background-color: #3882F6;
     color: white;
 }
-
 
 
 #infos {
@@ -301,11 +285,6 @@ figure img {
     font-weight: bold;
 }
 
-
-/**
-* Code css of footer
-**/
-
 footer {
     background-color: #1F2937;
     color: white;
@@ -320,381 +299,3 @@ footer p {
    
 }
 
-
-/**
-** Area of media query
-**/
-
-@media screen and (min-width: 300px) and (max-width: 560px) {
-    
-
-    .page-top {
-        height: 100vh !important;
-        margin: 0%;
-    }
-    #logo {
-        margin-left: 5%;
-    }
-
-    #logo img {
-        width: 100%;
-        margin-left: 0%;
-       
-    }
-    header #nav-bar {
-        
-        height: inherit;
-        width: 65%;
-        
-    }
-
-    #nav-bar ul {
-        display: flex;
-        margin-left: 5%;
-        height: inherit;
-        margin-top: 0%;
-        padding: 0%;
-    }
-
-    #nav-bar ul li {
-        width: 35%;
-        margin-left: 4% !important;
-        font-size: 12px;
-        margin-top: 10%;
-    }
-
-
-    #nav-bar li:nth-child(1) {
-        margin-left: 0% !important;
-    }
-
-    #sub-header {
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-    }
-    #sub-header-left{
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
-        order: 2;
-        margin-top: 1%;
-    }
-
-    #sub-header-right {
-        width: 100% !important;
-        margin-left: 0% !important;
-        height: 15em;
-        order: 1;
-        margin-top: 35% !important;
-    }
-
-    #sub-header-right img {
-        height: 15em;
-        margin-top: 0%;
-    }
-
-    h1 {
-        font-size: 18px;
-       
-    }
-    
-    p{
-        text-align: justify;
-        margin-top: 0% !important;
-        margin-bottom: 0%;
-        font-size: 12px;
-    }
-
-    #sign {
-
-        margin-top: 2%;
-        width: 50% !important;
-        margin-left: 25% !important;
-    }
-
-    main {
-        height: auto !important;
-    }
-
-    .first-level {
-        height: auto;
-    }
-
-    .first-level p {
-        font-size: 18px;
-        margin-top: 10% !important;
-        margin-bottom: 5% !important;
-    }
-
-    #squares {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .square {
-        width: 100%;
-        height: 250px;
-    }
-
-    .second-level {
-        width: 100%;
-        margin-top: 0%;
-        margin-left: 0%;
-        margin-right: 0%;
-        height: 20em;
-        display: flex;
-        flex-direction: column;
-        align-content: space-around;
-        background-color: #E5E7EB;
-    }
-
-    .second-level blockquote {
-        margin-top: 20%;
-        width: 95%;
-        margin-left: 2.5% !important;
-       
-    }
-
-    blockquote p {
-        font-size: 22px !important;
-        line-height: 1.5em;
-    }
-
-    #cite {
-        font-size: 18px;
-        text-align: right;
-        margin-left: 15%;
-        margin-top: 5%;
-    }
-
-    .third-level {
-        height: 18em !important;
-    }
-
-    #register {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 11em !important;
-        margin-left: 0% !important;
-        padding: 1% !important;
-    }
-
-    #infos, h2 {
-        font-size: 20px;
-        margin-left: 4% !important;
-
-    }
-
-    h2 {
-        white-space: nowrap;
-    }
-
-    #sign-bottom button {
-        width: 98%;
-        border: 2px solid;
-        border-radius: 5px;
-        background-color: #3882F6;
-        border-color: white;
-        color: white;
-        height: 35px;
-        margin-top: 10%;
-        font-size: 18px;
-        font-weight: bold;
-        cursor: pointer;
-        margin-right: 3% !important;
-    }
-
-    footer {
-        height: 3em !important;
-    }
-
-    footer p {
-        padding-top: 2%;
-        text-align: right;
-
-    }
-
-}
-
-@media screen and (min-width: 561px) and (max-width: 768px) {
-
-    .page-top {
-        height: 170vh !important;
-        margin: 0%;
-    }
-    #logo {
-        margin-left: 5%;
-    }
-
-    #logo img {
-        width: 100%;
-        margin-left: 0%;
-       
-    }
-    header #nav-bar {
-        
-        height: inherit;
-        width: 65%;
-        
-    }
-
-    #nav-bar ul {
-        display: flex;
-        margin-left: 5%;
-        height: inherit;
-        margin-top: 0%;
-        padding: 0%;
-    }
-
-    #nav-bar ul li {
-        width: 35%;
-        margin-left: 4% !important;
-        font-size: 18px;
-        margin-top: 10%;
-    }
-
-
-    #nav-bar li:nth-child(1) {
-        margin-left: 0% !important;
-    }
-
-    #sub-header {
-        display: flex;
-        flex-direction: column;
-        margin-top: -5%;
-    }
-    #sub-header-left{
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
-        order: 2;
-        margin-top: 1%;
-    }
-
-    #sub-header-right {
-        width: 100% !important;
-        margin-left: 0% !important;
-        height: 15em;
-        order: 1;
-        margin-top: 35% !important;
-    }
-
-    #sub-header-right img {
-        height: 15em;
-        margin-top: 0%;
-    }
-
-    h1 {
-        font-size: 30px;
-       
-    }
-    
-    p{
-        text-align: justify;
-        margin-top: 0% !important;
-        margin-bottom: 0%;
-        font-size: 12px;
-    }
-
-    #sign {
-
-        margin-top: 2% !important;
-        width: 50% !important;
-        margin-left: 25% !important;
-    }
-
-    .first-level p {
-        font-size: 22px;
-        margin-top: 10% !important;
-        margin-bottom: 5% !important;
-    }
-
-    .first-level {
-        width: 100% !important;
-        margin-left: 0% !important;
-        height: auto;
-        padding-bottom: 5%;
-    }
-    #squares {
-        width: 100% !important;
-    }
-
-    figcaption {
-        font-size: 12px;
-    }
-
-    .second-level {
-        height: auto;
-        padding-top: 5%;
-    }
-
-    blockquote  p {
-        font-size: 22px;
-    }
-
-    #cite {
-        margin-top: 5%;
-        margin-left: 30% !important;
-  
-    }
-
-    .third-level {
-        height: 15em;
-    }
-
-    #sign-bottom button {
-        width: 100%;
-        border: 2px solid;
-        border-radius: 5px;
-        background-color: #3882F6;
-        border-color: white;
-        color: white;
-        height: 35px;
-        margin-top: 50%;
-        margin-left: 30%;
-        font-size: 18px;
-        font-weight: bold;
-        cursor: pointer;
-        margin-right: 3% !important;
-    }
-
-    footer {
-        height: 4em;
-    }
-
-    footer p {
-        padding-top: 5%;
-        text-align: right;
-    }
-
-}
-
-@media  screen and (min-width: 769px) and (max-width: 992px) {
-    
-   #sub-header h1 {
-       font-size: 26px !important;
-   }
-
-   #sub-header-left button{
-        margin-top: 5%;
-        width: 60%;
-        margin-left: 20%;
-   }
-
-   .first-level {
-       width: 100%;
-       margin-left: 0%;
-   }
-
-   blockquote {
-       width: 90% !important;
-       margin-left: 5% !important;
-   }
-
-   footer {
-       height: 5em !important;
-   }
-
-}
