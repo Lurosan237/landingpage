@@ -1,0 +1,700 @@
+body {
+
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+.container {
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.page-top {
+
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #1F2937;
+    color: white;
+}
+
+header {
+   
+    display: flex;
+    width: 100%; 
+    height: auto;
+    background-color: #1F2937;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+#logo{
+   
+    width: 20%;
+    height: 6em;
+    margin-left: 8%;
+    margin-top: 1%;
+
+}
+
+#logo img {
+    width: 40%;
+    height: 6em;
+    border-radius: 50%;
+    border: none;
+    display: block;
+    margin-left: 25%;
+}
+
+#nav-bar {
+
+    width: 60%;
+    height: 5em;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    margin-left: 14%;
+    
+}
+
+li {
+    padding: 2%;
+    margin-left: 1%;
+    width: 20%;
+    text-align: center;
+    white-space: nowrap;
+   
+}
+
+#nav-bar li:nth-child(1) {
+    margin-left: 15%;
+}
+
+li:hover{
+    border-bottom: 3px solid;
+    border-color: #3882F6;
+    
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+/**
+** CSS for sub-top
+**/
+
+.sub-header {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-bottom: 4%;
+    height: 80vh;
+    
+}
+
+#sub-header-left {
+    width: 40%;
+    padding-right: 2%;
+    margin-top: 8%;
+    margin-left: 3.5%;
+    height: inherit;
+}
+
+#sub-header-right {
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 3.5%;
+    height: inherit;
+}
+
+#sub-header-right img {
+    width: 100%;
+    display: block;
+    margin-right: 0%;
+    margin-left: 0%;
+    height: 70vh;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#sub-header-left p {
+    width: 100%;
+    margin-top: 20%;
+}
+
+#sub-header-left button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border: none;
+    width: 30%;
+    padding: 0.8%;
+    height: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20%;
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+/**
+** this is the first-level of main block
+**/
+
+main {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.first-level {
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    width: 70%;
+    margin-left: 15%;
+    opacity: 0.8;
+}
+
+.first-level p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+
+#squares {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.square {
+    width: 20%;
+    height: 250px;
+}
+
+figure {
+   
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 0%;
+    margin-top: 0%;
+    height: 170px;
+}
+
+figure img {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+}
+
+
+/**
+** Below are codes of level 2 of the main block
+**/
+
+.second-level {
+   
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background-color: #E5E7EB;
+}
+
+.second-level blockquote {
+    width: 67.5%;
+    margin-left: 20%;
+    font-size: 36px;
+    font-style: italic;
+    margin-top: 10%;
+    opacity: 0.8;
+}
+
+#cite {
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 65%;
+}
+
+/**
+* Code css for the last level
+**/
+
+.third-level {
+    height: 350px;
+}
+
+
+
+#register {
+    width: 75%;
+    margin-left: 15%;
+    height: 160px;
+    margin-top: 7%;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+}
+
+
+
+#infos {
+    width: 70%;
+}
+
+#sign{
+    margin-left: 5%;
+    width: 20%;
+}
+
+#infos h2, #infos p {
+    margin-left: 10%;
+}
+
+#infos h2{
+    margin-top: 7%;
+}
+
+#infos p{
+    margin-top: -2%;
+}
+
+#sign-bottom button {
+    
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    height: 35px;
+    margin-top: 30%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/**
+* Code css of footer
+**/
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    height: 100px;
+    margin-bottom: 0%;
+}
+
+footer p {
+    margin-top: 3%;
+   
+}
+
+
+/**
+** Area of media query
+**/
+
+@media screen and (min-width: 300px) and (max-width: 560px) {
+    
+
+    .page-top {
+        height: 100vh !important;
+        margin: 0%;
+    }
+    #logo {
+        margin-left: 5%;
+    }
+
+    #logo img {
+        width: 100%;
+        margin-left: 0%;
+       
+    }
+    header #nav-bar {
+        
+        height: inherit;
+        width: 65%;
+        
+    }
+
+    #nav-bar ul {
+        display: flex;
+        margin-left: 5%;
+        height: inherit;
+        margin-top: 0%;
+        padding: 0%;
+    }
+
+    #nav-bar ul li {
+        width: 35%;
+        margin-left: 4% !important;
+        font-size: 12px;
+        margin-top: 10%;
+    }
+
+
+    #nav-bar li:nth-child(1) {
+        margin-left: 0% !important;
+    }
+
+    #sub-header {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    #sub-header-left{
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        order: 2;
+        margin-top: 1%;
+    }
+
+    #sub-header-right {
+        width: 100% !important;
+        margin-left: 0% !important;
+        height: 15em;
+        order: 1;
+        margin-top: 35% !important;
+    }
+
+    #sub-header-right img {
+        height: 15em;
+        margin-top: 0%;
+    }
+
+    h1 {
+        font-size: 18px;
+       
+    }
+    
+    p{
+        text-align: justify;
+        margin-top: 0% !important;
+        margin-bottom: 0%;
+        font-size: 12px;
+    }
+
+    #sign {
+
+        margin-top: 2%;
+        width: 50% !important;
+        margin-left: 25% !important;
+    }
+
+    main {
+        height: auto !important;
+    }
+
+    .first-level {
+        height: auto;
+    }
+
+    .first-level p {
+        font-size: 18px;
+        margin-top: 10% !important;
+        margin-bottom: 5% !important;
+    }
+
+    #squares {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .square {
+        width: 100%;
+        height: 250px;
+    }
+
+    .second-level {
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 20em;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        background-color: #E5E7EB;
+    }
+
+    .second-level blockquote {
+        margin-top: 20%;
+        width: 95%;
+        margin-left: 2.5% !important;
+       
+    }
+
+    blockquote p {
+        font-size: 22px !important;
+        line-height: 1.5em;
+    }
+
+    #cite {
+        font-size: 18px;
+        text-align: right;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .third-level {
+        height: 18em !important;
+    }
+
+    #register {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 11em !important;
+        margin-left: 0% !important;
+        padding: 1% !important;
+    }
+
+    #infos, h2 {
+        font-size: 20px;
+        margin-left: 4% !important;
+
+    }
+
+    h2 {
+        white-space: nowrap;
+    }
+
+    #sign-bottom button {
+        width: 98%;
+        border: 2px solid;
+        border-radius: 5px;
+        background-color: #3882F6;
+        border-color: white;
+        color: white;
+        height: 35px;
+        margin-top: 10%;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 3% !important;
+    }
+
+    footer {
+        height: 3em !important;
+    }
+
+    footer p {
+        padding-top: 2%;
+        text-align: right;
+
+    }
+
+}
+
+@media screen and (min-width: 561px) and (max-width: 768px) {
+
+    .page-top {
+        height: 170vh !important;
+        margin: 0%;
+    }
+    #logo {
+        margin-left: 5%;
+    }
+
+    #logo img {
+        width: 100%;
+        margin-left: 0%;
+       
+    }
+    header #nav-bar {
+        
+        height: inherit;
+        width: 65%;
+        
+    }
+
+    #nav-bar ul {
+        display: flex;
+        margin-left: 5%;
+        height: inherit;
+        margin-top: 0%;
+        padding: 0%;
+    }
+
+    #nav-bar ul li {
+        width: 35%;
+        margin-left: 4% !important;
+        font-size: 18px;
+        margin-top: 10%;
+    }
+
+
+    #nav-bar li:nth-child(1) {
+        margin-left: 0% !important;
+    }
+
+    #sub-header {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
+    }
+    #sub-header-left{
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        order: 2;
+        margin-top: 1%;
+    }
+
+    #sub-header-right {
+        width: 100% !important;
+        margin-left: 0% !important;
+        height: 15em;
+        order: 1;
+        margin-top: 35% !important;
+    }
+
+    #sub-header-right img {
+        height: 15em;
+        margin-top: 0%;
+    }
+
+    h1 {
+        font-size: 30px;
+       
+    }
+    
+    p{
+        text-align: justify;
+        margin-top: 0% !important;
+        margin-bottom: 0%;
+        font-size: 12px;
+    }
+
+    #sign {
+
+        margin-top: 2% !important;
+        width: 50% !important;
+        margin-left: 25% !important;
+    }
+
+    .first-level p {
+        font-size: 22px;
+        margin-top: 10% !important;
+        margin-bottom: 5% !important;
+    }
+
+    .first-level {
+        width: 100% !important;
+        margin-left: 0% !important;
+        height: auto;
+        padding-bottom: 5%;
+    }
+    #squares {
+        width: 100% !important;
+    }
+
+    figcaption {
+        font-size: 12px;
+    }
+
+    .second-level {
+        height: auto;
+        padding-top: 5%;
+    }
+
+    blockquote  p {
+        font-size: 22px;
+    }
+
+    #cite {
+        margin-top: 5%;
+        margin-left: 30% !important;
+  
+    }
+
+    .third-level {
+        height: 15em;
+    }
+
+    #sign-bottom button {
+        width: 100%;
+        border: 2px solid;
+        border-radius: 5px;
+        background-color: #3882F6;
+        border-color: white;
+        color: white;
+        height: 35px;
+        margin-top: 50%;
+        margin-left: 30%;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 3% !important;
+    }
+
+    footer {
+        height: 4em;
+    }
+
+    footer p {
+        padding-top: 5%;
+        text-align: right;
+    }
+
+}
+
+@media  screen and (min-width: 769px) and (max-width: 992px) {
+    
+   #sub-header h1 {
+       font-size: 26px !important;
+   }
+
+   #sub-header-left button{
+        margin-top: 5%;
+        width: 60%;
+        margin-left: 20%;
+   }
+
+   .first-level {
+       width: 100%;
+       margin-left: 0%;
+   }
+
+   blockquote {
+       width: 90% !important;
+       margin-left: 5% !important;
+   }
+
+   footer {
+       height: 5em !important;
+   }
+
+}
